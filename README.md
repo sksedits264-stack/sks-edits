@@ -16,6 +16,7 @@ h1{color:#00ffcc;}
 .card{background:#1a1a1a;padding:20px;border-radius:10px;width:260px;transition:0.3s;}
 .card:hover{transform:scale(1.05);}
 .price{color:#00ffcc;font-size:22px;}
+iframe{width:100%;height:200px;border-radius:10px;}
 footer{text-align:center;padding:20px;background:#111;}
 </style>
 
@@ -30,23 +31,25 @@ footer{text-align:center;padding:20px;background:#111;}
 <section class="hero">
 <h2>Make Your Videos Viral 🔥</h2>
 <p>High Quality Reel & YouTube Editing</p>
-<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX')">Order on WhatsApp</button>
+<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX?text=I want video editing service')">Order on WhatsApp</button>
 </section>
 
 <section class="section">
 <h2>Portfolio</h2>
 <div class="cards">
-<div class="card">Your Reel 1 (Add Video Link)</div>
-<div class="card">Your Reel 2 (Add Video Link)</div>
-<div class="card">Your Reel 3 (Add Video Link)</div>
-</div>
-</section>
 
-<section class="section">
-<h2>Services</h2>
-<div class="cards">
-<div class="card">Reel Editing 🔥</div>
-<div class="card">YouTube Editing 🎬</div>
+<div class="card">
+<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_LINK"></iframe>
+</div>
+
+<div class="card">
+<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_LINK"></iframe>
+</div>
+
+<div class="card">
+<iframe src="https://www.youtube.com/embed/YOUR_VIDEO_LINK"></iframe>
+</div>
+
 </div>
 </section>
 
@@ -58,21 +61,21 @@ footer{text-align:center;padding:20px;background:#111;}
 <h3>Basic</h3>
 <p class="price">₹499</p>
 <p>1 Reel Edit</p>
-<button class="btn">Buy Now</button>
+<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX?text=I want Basic Plan')">Buy Now</button>
 </div>
 
 <div class="card">
 <h3>Pro</h3>
 <p class="price">₹1499</p>
 <p>5 Reels + Effects</p>
-<button class="btn">Buy Now</button>
+<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX?text=I want Pro Plan')">Buy Now</button>
 </div>
 
 <div class="card">
 <h3>Premium</h3>
 <p class="price">₹2999</p>
 <p>Full YouTube Video</p>
-<button class="btn">Buy Now</button>
+<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX?text=I want Premium Plan')">Buy Now</button>
 </div>
 
 </div>
@@ -80,12 +83,11 @@ footer{text-align:center;padding:20px;background:#111;}
 
 <section class="section">
 <h2>Contact</h2>
-<p>Message me on WhatsApp for orders</p>
-<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX')">Chat Now</button>
+<button class="btn" onclick="window.open('https://wa.me/91XXXXXXXXXX?text=Hello I want editing service')">Chat Now</button>
 </section>
 
 <footer>
-<p>© 2026 SKS EDITS | All Rights Reserved</p>
+<p>© 2026 SKS EDITS</p>
 </footer>
 
 </body>
